@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+}
+
+.heading {
+    text-decoration: none;
+    display : block;
+    color: white;
+    font-size: 22px;
+    text-align:left;
+    margin: 50px;
+    margin-left: 5px;
+
+}
+.insert {
+    text-decoration: none;
+    display : block;
+    color: #fff;
+    font-size: 22px;
+    text-align:left;
+    margin: 10px;
+    margin-left: 3px;
+
+}
+.headingg {
+    text-decoration: none;
+    display : block;
+    color: white;
+    font-size: 22px;
+    text-align:center;
+    margin: 50px;
+    margin-left: 230px;
+}
+.delete{
+    text-decoration: none;
+    display : block;
+    color: #fff;
+    font-size: 22px;
+    text-align:center;
+    margin: 10px;
+    margin-left: 180px;
+}
+.headinggg {
+    text-decoration: none;
+    display : block;
+    color: white;
+    font-size: 22px;
+    text-align:right;
+    margin: 50px;
+    margin-right: 5px;
+}
+.display{
+    text-decoration: none;
+    display : block;
+    color: #fff;
+    font-size: 22px;
+    text-align:center;
+    margin: 10px;
+    margin-right: 5px;
+}
+.try{
+    display: inline-block;
+}
+.tryy {
+    display: inline-block;
+}
+.tryyy{
+    display: inline-block;
+}
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+}
+input {
+    display: inline-block;
+    float: left;
+}
+input[type=submit]{
+    width : 100px;
+    height : 50px;
+}
+@media(max-width: 786px) {
+
+
+    nav ul {
+        max-height: 0px;
+        background: #000;
+    }
+
+
+    .showing {
+        max-height: 34em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+}
